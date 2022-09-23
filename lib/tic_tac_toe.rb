@@ -17,6 +17,7 @@ class TicTacToe
     end
 
     def display_board
+        system("clear")
         puts "-----------"
         board.each.with_index do |s, i|
             if (i==0)
